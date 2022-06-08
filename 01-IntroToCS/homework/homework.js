@@ -14,7 +14,30 @@ function BinarioADecimal(num) {
 }
 
 function DecimalABinario(num) {
-  // tu codigo aca
+  if(typeof num !== "number"){
+
+    return console.log(parseInt(num).toString(2));
+   }else{
+     return console.log(num.toString(2));
+ 
+   }
+ 
+   /*
+   //Alternativa 
+   let suma= new String();
+ 
+     while (num>0){
+       if(num>1){
+         suma+=(num%2).toString();
+         num= Math.floor(num/2);
+       }else if(num===1){
+        suma+="1";
+         num=0;
+       }
+     }
+  
+     console.log(Number((suma.split("").reverse()).join("")));
+ */
 
 }
 
