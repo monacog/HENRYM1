@@ -8,7 +8,7 @@ function BinarioADecimal(num) {
     for (i=0 , j=numstring.length-1; i<numstring.length ; i++ , j-- ){
       suma+=Number(numstring[i])*(2**j);
     }
-    return console.log(suma);
+    return suma;
   }
   
 }
@@ -18,7 +18,7 @@ function DecimalABinario(num) {
 
     return console.log(parseInt(num).toString(2));
    }else{
-     return console.log(num.toString(2));
+     return num.toString(2);
  
    }
  
